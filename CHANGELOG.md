@@ -75,6 +75,7 @@ metadata and the backend fallback mirror it.
 
 ### Fixed
 
+- IndexTTS 2.5's one-click install takes a ROCm PyTorch build on Linux ROCm hosts instead of a GPU-invisible CUDA wheel, and re-offers the repair to installs still carrying one (#2371) — thanks @swadhinbiswas!
 - Low-disk notifications open Storage settings directly (#2407)
 
 - Preserve float audio and requested seeds through OmniVoice/VoxCPM2 sidecars, and keep playback and saved WAV precision consistent (#2406)
